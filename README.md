@@ -1,6 +1,8 @@
 # portfolioSiteSCSS
 Portfolio Website by Brad Traversey on O'Reilly
 
+Has been completed and deployed through Netlify to legbodyportfolio.com
+
 Need to use npm to install 'node-sass' on terminal in VS Code, or standard Mac, Linux Terminal or Windows Command Prompt
 
 <h2>Commands for node sass:</h2>
