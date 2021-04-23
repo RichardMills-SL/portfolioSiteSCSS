@@ -3,7 +3,7 @@ Portfolio Website by Brad Traversey on O'Reilly
 
 Need to use npm to install 'node-sass' on terminal in VS Code, or standard Mac, Linux Terminal or Windows Command Prompt
 
-<h2>Commands:</h2>
+<h2>Commands for node sass:</h2>
 <p>Check version: 'npm --version'<br>
 <p>If no version install npm.</p>
 
