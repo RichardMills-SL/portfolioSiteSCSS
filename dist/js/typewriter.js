@@ -12,7 +12,7 @@ const TypeWriter = function(txtElement, words, wait = 3000) {
 //Type Method
 TypeWriter.prototype.type = function() {
     // Current index of word
-    const current = this.wordIndec % this.words.length;
+    const current = this.wordIndex % this.words.length;
     // Get full text of cureent word
     const fullTxt = this.words[current];
 
@@ -28,11 +28,11 @@ TypeWriter.prototype.type = function() {
     // insert txt into element
     this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
 
-    //Type Speed
+    // Initial type Speed
     let typeSpeed = 300;
 
     if(this.isDeleting) {
-        type /= 2;
+        typeSpeed /= 2;
     }
 
     // If word is complete
@@ -63,3 +63,4 @@ function init() {
     // init TypeWriter
     new TypeWriter(txtElement, words, wait);
 }
+
