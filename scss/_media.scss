@@ -15,6 +15,14 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  #home {
+    &-a {
+      .section-title {
+        padding-top: 1.25rem;
+      }
+    }
+  }
+
   #contact {
     &-c {
       font-size: 1.5rem;
@@ -83,7 +91,7 @@
         }
       }
       .section-title {
-        padding-top: 3rem;
+        padding-top: 3.5rem;
       }
     }
 
