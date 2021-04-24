@@ -1,5 +1,5 @@
 // Typewriter function
-const TypeWriter = function(txtElement, words, wait = 3000) {
+const TypeWriter = function(txtElement, words, wait = 2750) {
     this.txtElement = txtElement;
     this.words = words;
     this.txt = '';
@@ -29,7 +29,7 @@ TypeWriter.prototype.type = function() {
     this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
 
     // Initial type Speed
-    let typeSpeed = 300;
+    let typeSpeed = 250;
 
     if(this.isDeleting) {
         typeSpeed /= 2;
