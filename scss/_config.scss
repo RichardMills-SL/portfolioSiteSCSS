@@ -1,11 +1,16 @@
 // Variables
-
-$website-width: 1280px;
+/*
 $main-color: #ffbc00;
 $light-color: #f4f4f4;
 $medium-color: #ccc;
-$dark-color: #333;
-$bg-image: url("../img/pexels-brett-sayles-1431796.jpg");
+$dark-color: #333; */
+$bg-image: url("../img/BckDoc1.png");
+
+$website-width: 1280px;
+$main-color: #efc9af;
+$light-color: #f4f4f4;
+$medium-color: #ccc;
+$dark-color: #104c91;
 
 // Set text color
 @function set-text-color($color) {

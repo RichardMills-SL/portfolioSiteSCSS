@@ -7,6 +7,20 @@
       padding-top: 5rem;
     }
   }
+
+  #home-a .specials,
+  #home-b .stats,
+  #home-c .process,
+  #about-d .testimonials {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #contact {
+    &-c {
+      font-size: 1.5rem;
+      padding: 0.75rem;
+    }
+  }
 }
 
 //Smartphones
@@ -27,6 +41,17 @@
       background-position: 20% 42%;
       .header-content {
         display: none;
+      }
+
+      .mobile {
+        // This is what I added for Richard Mills title for mobile phones:
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: $dark-color;
+        font-size: 1.25rem;
+        padding-top: 1.75rem;
+        border-bottom: 1.5px solid $main-color;
       }
     }
 
@@ -56,6 +81,9 @@
           border: none;
           padding-bottom: 0;
         }
+      }
+      .section-title {
+        padding-top: 3rem;
       }
     }
 
@@ -127,7 +155,7 @@
 
     .footer-content {
       flex-direction: column;
-      padding: 1 rem;
+      padding: 1rem;
       height: 5rem;
     }
   }

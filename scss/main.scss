@@ -63,10 +63,11 @@ img {
     text-transform: uppercase;
     border-bottom: 3px transparent solid;
     padding-bottom: 0.5rem;
-    transition: border-color 0.5s;
+    transition: border-color 0.25s;
+    border-radius: 2.5px;
 
     &:hover {
-      border-color: $medium-color;
+      border-color: $light-color;
     }
 
     &.current {
@@ -87,10 +88,17 @@ img {
       text-align: center;
       padding-top: 20%;
 
+      &-mobile {
+        display: none;
+      }
+
       h1 {
         font-size: 4rem;
         line-height: 1.2;
       }
+    }
+    .mobile {
+      display: none;
     }
   }
 
@@ -112,7 +120,7 @@ img {
       grid-template-columns: repeat(4, 1fr);
 
       .fas {
-        color: $main-color;
+        color: $dark-color;
         padding-bottom: 0.4rem;
       }
     }
@@ -239,7 +247,7 @@ img {
     .award-1 .fas,
     .award-2 .fas,
     .award-3 .fas {
-      color: $main-color;
+      color: $dark-color;
       margin: 1rem;
     }
   }
@@ -249,9 +257,10 @@ img {
     .progress {
       overflow: hidden;
       height: 12px;
-      background: $medium-color;
+      background: $light-color;
       border-radius: 8px;
       margin-bottom: 0.6rem;
+      border: 2px solid $light-color;
 
       div {
         height: 100%;

@@ -1,5 +1,5 @@
 // Typewriter function
-const TypeWriter = function(txtElement, words, wait = 2750) {
+const TypeWriter = function(txtElement, words, wait = 2500) {
     this.txtElement = txtElement;
     this.words = words;
     this.txt = '';
