@@ -14,7 +14,7 @@ Need to use npm to install 'node-sass' on terminal in VS Code, or standard Mac, 
 <p>initialise:
 npm init -y</p>
 
-<p>'package.json' file should look like this:
+<p>'package.json' file should look like this: <br>
 <code> 
   {
   "name": "PortfolioWebsite",
@@ -28,9 +28,9 @@ npm init -y</p>
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^5.0.0"
+  "node-sass": "^5.0.0"
   }
-}
+} <br>
 </code>
 </p>
 <p>then: 'npm run sass'</p>
