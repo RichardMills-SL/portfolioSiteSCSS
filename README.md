@@ -2,6 +2,7 @@
 Portfolio Website by Brad Traversey on O'Reilly
 
 Need to use npm to install 'node-sass' on terminal in VS Code, or standard Mac, Linux Terminal or Windows Command Prompt
+<h3>Currently deployed at <a href="legbodyportfolio.ml"> legbodyportfolio.ml</a></h3>
 
 <h2>Commands for node sass:</h2>
 <p>Check version: 'npm --version'<br>
@@ -14,7 +15,8 @@ Need to use npm to install 'node-sass' on terminal in VS Code, or standard Mac, 
 npm init -y</p>
 
 <p>'package.json' file should look like this:
-{
+<code> 
+  {
   "name": "PortfolioWebsite",
   "version": "1.0.0",
   "description": "",
@@ -29,6 +31,7 @@ npm init -y</p>
     "node-sass": "^5.0.0"
   }
 }
+</code>
 </p>
 <p>then: 'npm run sass'</p>
 
